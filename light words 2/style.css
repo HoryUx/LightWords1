@@ -1,0 +1,81 @@
+@import url(//fonts.googleapis.com/css?family=Vibur);
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    background: linear-gradient(90deg, rgba(18,50,61,1) 0%, rgba(31,30,37,1) 83%);
+}
+
+
+
+.container {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+  
+.you {
+    font: 400 19vh "Vibur";
+    color: #7d36d3;
+    font-size: 9vw;
+    line-height: 9vw;
+    text-shadow: 0 0 3vw #de8d9c;
+}
+
+.strong {
+    font: 400 19vh "Vibur";
+    color: #084b78;
+    font-size: 9vw;
+    line-height: 9vw;
+    text-shadow: 0 0 3vw #4c60af67;
+}
+
+
+
+.you {
+    animation: you 1s ease infinite;
+    -moz-animation: you 1s ease infinite;
+    -webkit-animation: you 1s ease infinite;
+}
+  
+@keyframes you {
+    0%,
+    100% {
+      text-shadow: 0 0 1vw #be6764, 0 0 3vw #df16fa, 0 0 10vw #c05ad7, 0 0 10vw #166dfa, 0 0 .4vw #9e28fe, .5vw .5vw .1vw #42349a;
+      color: #c170e7;
+    }
+    50% {
+      text-shadow: 0 0 .5vw #1c2738, 0 0 1.5vw #a041f3, 0 0 5vw #954bb3, 0 0 5vw #cc433f, 0 0 .2vw #ee0a02, .5vw .5vw .1vw #237eed;
+      color: #cf8ef7;
+    }
+}
+
+
+
+.strong {
+    animation: strong 2s linear infinite;
+    -moz-animation: strong 2s linear infinite;
+    -webkit-animation: strong 2s linear infinite;
+    -o-animation: strong 2s linear infinite;
+}
+  
+@keyframes strong {
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92% {
+      text-shadow: 0 0 1vw #1041FF, 0 0 3vw #06728b, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+      color: #b4e0ea;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100% {
+      text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #7789d1, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+      color: #27c2e6;
+    }
+
+    
+    
+    
+}
+  
+  
